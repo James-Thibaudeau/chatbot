@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var apiai = require('apiai');
-var app = apiai("2dd1df68734a457586017607a917f072");
+var app = apiai("<add your api key here!>");
 
 
 //send message to chatbot

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ChatBot</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.min.js"></script>
+    <script src="../app.js"></script>
+    <script src="../controllers/MainController.js"></script>
+</head>
+
+<body ng-app="ChatBot">
+    <h1>James' ChatBot</h1>
+    <div ng-controller="MainController as main">
+        <div class="container">
+            <div class="well">
+                <li ng-repeat="message in chat">{{message.message}} - {{message.author}}</li>
+            </div>
+        </div>
+        <div class="container">
+          <form>
+            <div class="input-group">
+                <input ng-model="usertext" type="text" class="form-control" placeholder="Say something..."></input>
+                <span class="input-group-btn">
+                  <button ng-click="sendText()" class="btn btn-primary" type="submit">Send</button>
+                </span>
+            </div>
+          </form>
+
+        </div>
+
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

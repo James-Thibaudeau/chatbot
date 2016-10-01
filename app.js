@@ -1,3 +1,7 @@
+/*
+This is the backend NodeJS app. There should be no need to make changes in
+this file unless you are extremely comfortable using NodeJS.
+*/
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');

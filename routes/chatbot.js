@@ -1,3 +1,12 @@
+/*
+This is the backend for the chatbot. It communicates with API.AI to provide the
+speech responses to the user's messages. Everyone must modify this file by
+adding their API.AI API key where it says "<add your api key here!>"
+
+If you are going to use MongoDB you will likely need to modify this file to
+save and get data.
+*/
+
 var express = require('express');
 var router = express.Router();
 var apiai = require('apiai');

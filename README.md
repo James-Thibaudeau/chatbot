@@ -8,10 +8,10 @@ Getting Started
 
 Required software:
 
-= Git
-= NodeJS
-= MongoDB
-= Text Editor/IDE
+* Git
+* NodeJS
+* MongoDB
+* Text Editor/IDE
 
 Make sure you have installed all the required software.
 
@@ -59,6 +59,6 @@ In the second terminal run `npm start`
 Check to see if your chatbot works
 ---
 
-In your browser navigate to localhost:3000
+In your browser navigate to `localhost:3000`
 
 You should see the chatbot up and running!

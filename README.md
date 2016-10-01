@@ -1,5 +1,12 @@
 # chatbot
 
-This is a small effort to try out setting up a chatbot with the MEAN stack and api.ai.
+This is the skeleton project for Startup Launchpad's fall 2016 hackathon
+at Algonquin College.
 
-If anyone wants to try it out, you have to go to api.ai and get your own key and put it into the chatbot.js.
+Getting Started
+---
+
+Make sure you have git installed.
+Make a new folder for this project and name it as you like.
+`git init` in the folder.
+`git clone` and the URL for the repository.

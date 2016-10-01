@@ -8,9 +8,9 @@ Getting Started
 
 Required software:
 
-* Git
-* NodeJS
-* MongoDB
+* Git - http://git-scm.com/downloads
+* NodeJS - http://nodejs.org/
+* MongoDB - www.mongodb.com
 * Text Editor/IDE
 
 Make sure you have installed all the required software.

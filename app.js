@@ -66,5 +66,5 @@ app.use(function(err, req, res, next) {
   });
 });
 
-console.logt('Chatbot is running!');
+console.log('Chatbot is running!');
 module.exports = app;

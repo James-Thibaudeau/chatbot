@@ -15,14 +15,18 @@ Required software:
 
 Make sure you have installed all the required software.
 
-API.ai
+GitHub
 ---
 
-Go to http://API.ai
+Create an account on GitHub.
 
-Create an account.
+Forking the Repository
+---
 
-Once you have an account create an agent.
+http://github.com/James-Thibaudeau/chatbot
+
+Click fork to fork the repo to your own GitHub
+
 
 Cloning the Repository
 ---
@@ -36,6 +40,15 @@ Make a new folder for this project and name it as you like.
 `git remote add origin` Followed by the URL of your repo.
 
 In your project folder you will have a folder named chatbot.
+
+API.ai
+---
+
+Go to http://API.ai
+
+Create an account.
+
+Once you have an account create an agent.
 
 Connect your Agent to the project
 ---

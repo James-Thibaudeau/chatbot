@@ -33,6 +33,8 @@ Make a new folder for this project and name it as you like.
 
 `git clone` and the URL for the repository.
 
+`git remote add origin` Followed by the URL of your repo.
+
 In your project folder you will have a folder named chatbot.
 
 Connect your Agent to the project

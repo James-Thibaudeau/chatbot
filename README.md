@@ -83,3 +83,10 @@ Check to see if your chatbot works
 In your browser navigate to `localhost:3000`
 
 You should see the chatbot up and running!
+
+More Git
+---
+To pull from remote `git pull`
+To stage local changes `git add -A`
+To commit local changes `git commit -m "<commit comment>"`
+To push to remote `git push`

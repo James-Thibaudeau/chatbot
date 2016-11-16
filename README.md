@@ -13,8 +13,8 @@ Required software:
 * MongoDB - www.mongodb.com
 
 * Text Editor/IDE 
-* Atom - https://atom.io/
-* Notepad++ - https://notepad-plus-plus.org/
+*  * Atom - https://atom.io/
+*  * Notepad++ - https://notepad-plus-plus.org/
 
 Make sure you have installed all the required software.
 

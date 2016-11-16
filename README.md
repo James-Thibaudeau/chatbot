@@ -11,7 +11,10 @@ Required software:
 * Git - http://git-scm.com/downloads
 * NodeJS - http://nodejs.org/
 * MongoDB - www.mongodb.com
-* Text Editor/IDE
+
+* Text Editor/IDE 
+* Atom - https://atom.io/
+* Notepad++ - https://notepad-plus-plus.org/
 
 Make sure you have installed all the required software.
 

@@ -13,9 +13,9 @@ Required software:
 * MongoDB - www.mongodb.com
 
 
-* Text Editor/IDE 
-- Atom - https://atom.io/
-- Notepad++ - https://notepad-plus-plus.org/
+* Text Editor/IDE
+ * Atom - https://atom.io/
+ * Notepad++ - https://notepad-plus-plus.org/
 
 Make sure you have installed all the required software.
 
@@ -72,6 +72,9 @@ Enter a unique session id of your choosing.
 
 Setting up NodeJS and MongoDB
 ---
+For MongoDB you must create a folder `C:\data\db`
+
+You also need to include Mongo in your PATH variable
 
 Have two command line terminals open and navigate to the chatbot folder in both.
 

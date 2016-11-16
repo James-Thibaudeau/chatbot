@@ -60,6 +60,12 @@ In the routes folder open chatbot.js.
 Where it says `var app = apiai("<add your api key here!>");` replace the contents of the double quotes with
 the API key of your agent
 
+Where it says 
+`  var options = {
+sessionId: "<36 character sessionID>"
+  };`
+Enter a unique session id of your choosing.
+
 Setting up NodeJS and MongoDB
 ---
 
